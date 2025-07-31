@@ -1,0 +1,1 @@
+import{j as s}from"./index-D0FyutOn.js";function t(){return s.jsxs("div",{className:"p-6",children:[s.jsx("h1",{className:"text-2xl font-bold mb-4",children:"Test Page"}),s.jsx("p",{className:"text-gray-600",children:"If you can see this, routing is working!"})]})}export{t as default};
