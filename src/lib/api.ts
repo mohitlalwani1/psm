@@ -113,3 +113,4 @@ const getMockData = async (endpoint: string, options: RequestInit = {}) => {
 };
 
 export const api = {
+}
