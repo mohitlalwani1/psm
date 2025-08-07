@@ -1,15 +1,1 @@
-@@ .. @@
- import { api } from "@/lib/api";
-+import { mockTeamMembers } from "@/lib/mockData";
- 
- interface TeamMember {
-@@ .. @@
-   useEffect(() => {
--    fetchTeamMembers();
-+    // Use mock data initially, then try to fetch from API
-+    setTeamMembers(mockTeamMembers as any[]);
-+    setLoading(false);
-+    
-+    // Try to fetch real data
-+    fetchTeamMembers();
-   }, []);
+{"code":"rate-limited","message":"You have hit the rate limit. Please upgrade to keep chatting.","providerLimitHit":false,"isRetryable":true}

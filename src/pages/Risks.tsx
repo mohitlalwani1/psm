@@ -1,15 +1,1 @@
-@@ .. @@
- import { api } from "@/lib/api";
-+import { mockRisks } from "@/lib/mockData";
- 
- interface Risk {
-@@ .. @@
-   useEffect(() => {
--    fetchRisks();
-+    // Use mock data initially
-+    setRisks(mockRisks as any[]);
-+    setLoading(false);
-+    
-+    // Try to fetch real data
-+    fetchRisks();
-   }, []);
+{"code":"rate-limited","message":"You have hit the rate limit. Please upgrade to keep chatting.","providerLimitHit":false,"isRetryable":true}
